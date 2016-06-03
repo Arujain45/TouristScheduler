@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/cat_poistatus"
+            android:title="@string/nav_status">
+            <menu>
+                <item
+                    android:id="@+id/cat_onlyopen"
+                    android:icon="@drawable/ic_date_range_black_24dp"
+                    android:title="@string/nav_openonly"/>
+                <item
+                    android:id="@+id/cat_onlyfree"
+                    android:icon="@drawable/ic_local_atm_black_24dp"
+                    android:title="@string/nav_freeonly"/>
+            </menu>
+        </item>
+        <item
+            android:id="@+id/cat_poitype"
+            android:title="@string/title_activity_confirm_po_i">
+            <menu>
+                <item
+                    android:id="@+id/nav_typeart"
+                    android:icon="@drawable/ic_directions_car_light_blue_a700_24dp"
+                    android:title="@string/nav_typeart"/>
+                <item
+                    android:id="@+id/nav_typehistory"
+                    android:icon="@drawable/ic_directions_car_light_blue_a700_24dp"
+                    android:title="@string/nav_typehistory"/>
+                <item
+                    android:id="@+id/nav_typeleisure"
+                    android:icon="@drawable/ic_directions_car_light_blue_a700_24dp"
+                    android:title="@string/nav_typeleisure"/>
+                <item
+                    android:id="@+id/nav_typesightseeing"
+                    android:icon="@drawable/ic_directions_car_light_blue_a700_24dp"
+                    android:title="@string/nav_typesightseeing"/>
+            </menu>
+        </item>
+    </group>
+</menu>

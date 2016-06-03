@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_mainmap"
+        android:title="@string/action_mainmap"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_parameters"
+        android:title="@string/action_parameters"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_confirmpoi"
+        android:title="@string/action_confirmpoi"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_directions"
+        android:title="@string/action_direction"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>

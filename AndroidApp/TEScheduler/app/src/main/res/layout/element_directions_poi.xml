@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="@dimen/directions_vertical_margin">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_place_red_500_36dp"
+        android:contentDescription="@string/img_description"/>
+    <TextView
+        android:id="@+id/directions_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="Stockholm Slott"
+        style="@style/AppTheme.LargeText"
+        android:layout_weight="1"
+        />
+    <TextView
+        android:id="@+id/directions_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="09:10-10:10"
+        style="@style/AppTheme.InputText"/>
+</LinearLayout>
