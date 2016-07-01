@@ -1,0 +1,21 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=E4:D4:CF:2D:B0:6A:A8:B8:1A:4E:5D:CB:AC:30:52:73:A7:0B:AB:DB%3Bcom.ericsson.project.tescheduler
+
+    You can also add your credentials to an existing key, using this line:
+    E4:D4:CF:2D:B0:6A:A8:B8:1A:4E:5D:CB:AC:30:52:73:A7:0B:AB:DB;com.ericsson.project.tescheduler
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyBPN8WJLaT1cZ_BuD6jFjMG77SVwLU2_yw
+    </string>
+</resources>

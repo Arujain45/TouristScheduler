@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="2dp"
+    android:paddingStart="@dimen/directions_left_padding"
+    android:paddingEnd="@dimen/directions_right_padding">
+    <ImageView
+        android:id="@+id/directions_segmentmobility"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_directions_walk_light_blue_a700_24dp"
+        android:contentDescription="@string/img_description"/>
+    <TextView
+        android:id="@+id/directions_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="@string/directions_direction"
+        style="@style/AppTheme.BlackText"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="8dp"
+        android:layout_weight="1"
+        />
+    <TextView
+        android:id="@+id/directions_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="@string/directions_duration"
+        style="@style/AppTheme.BlackText"/>
+</LinearLayout>

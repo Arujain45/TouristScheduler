@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">TEScheduler</string>
+    <string name="img_description">missing icon</string>
+
+    <!-- Activity titles -->
+    <string name="title_activity_parameters">Parameters</string>
+    <string name="title_activity_confirm_po_i">Confirm PIs</string>
+    <string name="title_activity_info">InfoActivity</string>
+    <string name="title_activity_maps_main">Stockholm Planner</string>
+    <string name="title_activity_directions">Directions</string>
+
+    <!-- Menu items -->
+    <string name="action_parameters">Parameters</string>
+    <string name="action_confirmpoi">PI Confirmation</string>
+    <string name="action_mainmap">Browse Map</string>
+    <string name="action_direction">Directions Guide</string>
+
+    <!-- Default value strings -->
+    <string name="value_date">0000–00–00</string>
+    <string name="value_specialdate">Tuesday, March 8th 2016</string>
+    <string name="value_zero">0</string>
+    <string name="value_openingtime">00:00–24:00</string>
+    <string name="value_duration">0 hours</string>
+    <string name="value_price">0 SEK</string>
+    <string name="value_website">www.whatever.com</string>
+    <string name="value_phone">(+46)8 000 000</string>
+    <string name="value_address">Zerogatan 0, 115 21, Stockholm</string>
+    <string name="value_pidescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+
+    <!-- Parameters Activity -->
+    <string name="parameters_label_budget">Budget</string>
+    <string name="parameters_label_numtravelers">Number of Travelers</string>
+    <string name="parameters_label_tripperiod">Trip Period</string>
+    <string name="parameters_label_startlocation">Starting Location</string>
+    <string name="parameters_label_mobility">Mobility</string>
+    <string name="parameters_enterbudget">Enter amount</string>
+    <string name="parameters_currency">SEK</string>
+    <string name="parameters_adults">adult(s)</string>
+    <string name="parameters_kids">kid(s)</string>
+    <string name="parameters_mintravelers_adults">1</string>
+    <string name="parameters_mintravelers_kids">0</string>
+    <string name="parameters_from">from</string>
+    <string name="parameters_to">to</string>
+    <string name="parameters_enteraddress">Enter your address</string>
+    <string name="parameters_mylocation">My Location</string>
+    <string-array name="parameters_residences">
+        <item>Hostel Gamla Stan</item>
+        <item>Hotel Royal</item>
+        <item>Stockholm Residence</item>
+        <item>Södermalm Inn</item>
+    </string-array>
+    <string-array name="parameters_mobility_options">
+        <item>Public Transportation</item>
+        <item>Car</item>
+        <item>Walk</item>
+        <item>Bike</item>
+    </string-array>
+
+    <!-- ConfirmPoI Activity -->
+    <string name="confirmpi_undo">Undo</string>
+    <string-array name="confirmpi_durations">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>45 minutes</item>
+        <item>1 hour</item>
+        <item>1:30 hours</item>
+        <item>2 hours</item>
+        <item>2:30 hours</item>
+        <item>3 hours</item>
+    </string-array>
+
+    <!-- PoI information Activity -->
+    <string name="info_openingtimes">Opening Times:</string>
+    <string name="info_openstatus">Unknown</string>
+    <string name="info_openstatus_open">Open Now</string>
+    <string name="info_openstatus_closed">Closed Now</string>
+    <string name="info_visitduration">Visit Duration</string>
+    <string name="info_price">Price</string>
+    <string name="info_website">Website</string>
+    <string name="info_phone">Phone</string>
+    <string name="info_address">Address</string>
+    <string name="info_price_kids">Kids (max 12 years old)</string>
+    <string name="info_price_seniors">Seniors (min 65 years old)</string>
+    <string name="info_price_students">Students</string>
+    <string name="info_price_groups">Groups (min 10 people)</string>
+    <string name="info_price_value" formatted="false">%1$s:- SEK</string>
+    <string name="info_exceptiontime" formatted="false">%1$s–%2$s</string>
+
+    <!-- Directions Activity -->
+    <string name="mobility_description_public" formatted="false">Take %1$s to %2$s</string>
+    <string name="mobility_description_car" formatted="false">Drive to %1$s</string>
+    <string name="mobility_description_walking" formatted="false">Walk to %1$s</string>
+    <string name="mobility_description_bike" formatted="false">Cycle to %1$s</string>
+
+    <!-- MapMain Activity -->
+    <string name="nav_status">Status</string>
+    <string name="nav_settings">Map Settings</string>
+    <string name="nav_settingsdescription">Select the types of Points of Interest that you want displayed on the map</string>
+    <string name="nav_openonly">Open Only</string>
+    <string name="nav_freeonly">Free Only</string>
+    <string name="nav_typeart"><![CDATA[Art & Culture]]></string>
+    <string name="nav_typehistory">History</string>
+    <string name="nav_typeleisure">Leisure</string>
+    <string name="nav_typesightseeing">Sightseeing</string>
+    <string name="nav_type">PI Type</string>
+    <string name="nav_budgetavailable">Available</string>
+    <string name="nav_budget_value">%s SEK</string>
+    <string name="nav_budgetexpenses">Expenses</string>
+
+    <!-- Miscellaneous -->
+    <string name="day_monday">Monday</string>
+    <string name="day_tuesday">Tuesday</string>
+    <string name="day_wednesday">Wednesday</string>
+    <string name="day_thursday">Thursday</string>
+    <string name="day_friday">Friday</string>
+    <string name="day_saturday">Saturday</string>
+    <string name="day_sunday">Sunday</string>
+    <string name="day_special">Special days</string>
+    <string name="non_available">n/a</string>
+    <string name="poitype_art">art</string>
+    <string name="poitype_history">history</string>
+    <string name="poitype_leisure">leisure</string>
+    <string name="poitype_sightseeing">sightseeing</string>
+    <string name="directions_backtomap">Back to Map</string>
+    <string name="directions_duration">(-1min)</string>
+    <string name="directions_poiname">POI Name here</string>
+    <string name="directions_opening">00:00-00:00</string>
+    <string name="directions_direction">move from A to B</string>
+    <string name="action_search">Search</string>
+    <string name="navopen">Open</string>
+    <string name="navclosed">Closed</string>
+    <string name="java_locationfailed">Could not get your location</string>
+    <string name="java_google_location_warning">Cannot use your position without your permission</string>
+
+</resources>

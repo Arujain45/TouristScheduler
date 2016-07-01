@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "limit": 4,
+        "count": 4,
+        "totalCount": 240,
+        "offset": 0
+    },
+    "events": [
+        {
+            "startDate": "2016-07-09T16:00+0200",
+            "round": 1,
+            "status": "UPCOMING",
+            "homeTeam": {
+                "name": "Djurgårdens IF",
+                "shortName": "Djurgårdens",
+                "municipality": {
+                    "name": "Stockholm"
+                }
+            },
+            "visitingTeam": {
+                "name": "IFK Norrköping",
+                "shortName": "Norrköping",
+                "municipality": {
+                    "name": "Norrköping"
+                }
+            },
+            "league": {
+                "name": "Allsvenskan",
+                "level": "Allsvenskan",
+                "sport": {
+                    "name": "Fotboll"
+                },
+                "teamClass": "MEN",
+            },
+            "facts": {
+                "arena": {
+                    "name": "Tele2 Arena"
+                },
+            }
+        },
+        {
+            "startDate": "2016-06-12T14:00+0200",
+            "round": 1,
+            "status": "UPCOMING",
+            "homeTeam": {
+                "name": "Djurgården",
+                "shortName": "Djurgården",
+                "municipality": {
+                    "name": "Stockholm"
+                }
+            },
+            "visitingTeam": {
+                "name": "Kristianstad DFF",
+                "shortName": "Kristianstad",
+                "municipality": {
+                    "name": "Kristianstad"
+                }
+            },
+            "league": {
+                "name": "Allsvenskan",
+                "level": "Allsvenskan",
+                "sport": {
+                    "name": "Fotboll"
+                },
+                "teamClass": "WOMEN",
+            },
+            "facts": {
+                "arena": {
+                    "name": "Stockholms Stadion"
+                },
+            }
+        }
+    ]
+}
